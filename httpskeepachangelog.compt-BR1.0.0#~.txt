@@ -1,0 +1,13 @@
+https://keepachangelog.com/pt-BR/1.0.0/#:~:text=Um%20changelog%20%C3%A9%20um%20arquivo,cada%20vers%C3%A3o%20de%20um%20projeto.
+
+Chore - pequena tarefa
+	git commit -m "chore: removendo arquivo.txt"
+
+Fix - correções
+	git commit -m "fix correção no cálculo de médias"
+
+Feat - inclusão de funcionalidades
+	git commit -m "feat: inclusão de função para calcular mediano"
+
+Docs - atualização de documentação
+	git commit -m "docs: atualizando o chancelog.md"
