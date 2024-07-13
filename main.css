@@ -25,7 +25,16 @@ body header .container nav ul li a {
 
 header li{
     display: inline;
+}
 
+header li a {
+    font-size: small;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+header li a:hover {
+    text-transform: uppercase;
 }
 
 .container {
