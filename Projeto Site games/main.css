@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+header { /* Direcionado ao cabeçalho*/
+    padding: 16px 0; /*Espaçamento das bordas*/
+    background-color: #182c61;
+    color: #ecf0f1;
+}
+
+header h1, section h2, section h3, button {
+    font-family: "Bungee Inline", sans-serif;
+}
+
+#sobre-loja h2{
+    color: #182c61;
+    margin-bottom: 16px;
+    margin-top: 3px;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    margin-top: 90px;
+    color: #182c61;
+}
+
+section h3 {
+    color: #182c61;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header h1, section h2, section h3 {
+    font-weight: normal;
+}
+
+header nav li {
+    display: inline; /*Deixar os icones do Menu ao lado do titulo*/
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-family: Verdana, Tahoma, sans-serif, 'Times New Roman', Times, serif;
+    font-style: bold;
+}
+
+header nav li a:hover { /*Adicionar efeitos ao botão*/
+    text-transform: uppercase;
+}
+
+.container {
+    max-width: 1280px; /*Largula máxima da página*/
+    width: 100%; /*Quanto vai ocupar da tela*/
+    margin: 0 auto;
+}
+
+header .container, section .container {
+    display: flex; /*Deixa o menu lado a lado*/
+    align-items: center; /*centralizar os itens do Menu*/
+    justify-content:space-between; /*Deixar o espaçamento entre o titulo e itens do Menu nos extremos*/
+}
+
+.brands-list img{ /*Para definir o tamanho da imagem*/
+    height: 24px; /*Utilizar apenas esse para náo perder qualidade da imagem*/
+}
+
+.brands-list li { /*Para deixar as imagens lado a lado*/
+    display: inline; /*Para deixar as imagens lado a lado*/
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start; /*Para deixar os itens/textos dessa section ao lado iniciando do começo*/
+}
+
+section {
+    padding: 12px 0;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-front {
+    margin-right: 12px;
+}
+
+.logos li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.logos li a {
+    text-decoration: none;
+}
+
+.logos img {
+    height: 30px;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input {
+    display: block;
+    width: 320px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+form button {
+    display: inline;
+    width: 200px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+form textarea {
+    resize: none;
+    display: block;
+    width: 400px;
+    height: 100px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+form button {
+    background-color: #182c61;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #647dc2;
+}
+
+input:focus, textarea:focus {
+    outline-color: #182c61;
+}
+
+footer {
+    background-color: #182c61;
+    color: #ecf0f1;
+    padding: 16px 0;
+}
