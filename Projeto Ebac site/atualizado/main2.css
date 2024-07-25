@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box; 
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    padding: 50px 0px;
+    background-color: rgb(4, 27, 90);
+    color: azure;
+    font-size: 26px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+header nav li a {
+    color: azure;
+    text-decoration: none;
+}
+
+.container-cab {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* deixar lado a lado na pagina
+header .container-cab {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}*/
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section .container img {
+    height: 400px;
+    margin-top: 10px;
+}
+
+section .container, section .dicas-capa {
+    display: flex;
+}
+
+section .dicas-capa {
+    display: block;
+    align-items: flex-start;
+    padding: 10px 0px 10px 10px;
+}
+
+section .dicas-capa p {
+    font-size: 24px;
+}
+
+section .dicas-capa h3 {
+    font-size: 30px;
+    margin-top: 25%;
+}
+
+section .dicas-capa form input, section .dicas-capa form textarea {
+    margin-top: 10px;
+    width: 80%;
+    height: 25px;
+}
+
+section .dicas-capa form textarea {
+    height: 70px
+}
+
+form textarea {
+    resize: none;
+}
+
+section .dicas-capa form button {
+    height: auto;
+    width: 20%;
+}
+
+section .dicas-capa form .enviar {
+    margin-right: 10px;
+}
+
+footer {
+    margin-top: 15%;
+    background-color: rgb(4, 27, 90);
+    color: azure;
+}
+
+footer p {
+    padding-top: 15px;
+}
